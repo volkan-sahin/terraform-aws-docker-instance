@@ -14,6 +14,6 @@ provider "aws" {
 
 module "docker_instance" {
     source = "volkan-sahin/docker-instance/aws"
-    key_name = "volkan"
+    key_name = "lessonkey"
 }
 ```
